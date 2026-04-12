@@ -1,0 +1,312 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix | Impostazioni</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/9.3.0/mdb.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="bg-black">
+      <!-- NAVBAR -->
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <!-- NAVBAR -->
+            <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"
+                  ><img
+                    src="./assets/img/netflix_logo.png"
+                    alt="Logo netflix"
+                    width="120px"
+                /></a>
+                <button
+                  class="navbar-toggler"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#navbarSupportedContent"
+                  aria-controls="navbarSupportedContent"
+                  aria-expanded="false"
+                  aria-label="Toggle navigation"
+                >
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active text-light"
+                        aria-current="page"
+                        href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light fw-bold" href="#"
+                        >TV Shows</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Movies</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">Recently Added</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-light" href="#">My List</a>
+                    </li>
+                  </ul>
+                  <div class="d-flex">
+                    <i class="fs-4 ms-4 text-light bi bi-search"></i>
+                    <img
+                      class="ms-4"
+                      width="35px"
+                      src="./assets/img/kids_icon.png"
+                      alt="Modalità kids"
+                    />
+                    <i class="fs-4 ms-4 text-light bi bi-bell-fill"></i>
+                    <a
+                      class="nav-link dropdown-toggle ms-4 text-light"
+                      href="#"
+                      role="button"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img
+                        class=""
+                        height="35px"
+                        src="./assets/img/avatar.png"
+                        alt="Modalità kids"
+                      />
+                      <ul class="dropdown-menu dropdown-menu-end bg-black">
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            href="./profile.html"
+                            >Profilo</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item text-danger"
+                            href="./impostazioni.html"
+                            >Impostazioni</a
+                          >
+                        </li>
+                      </ul>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!-- CONTENITORE GENRALE -->
+      <div class="container mt-5">
+        <h3 class="text-black">Account</h3>
+        <hr class="border-0 bg-secondary mt-4 mb-4" style="height: 2px" />
+        <!-- PRIMA RIGA -->
+        <div class="row">
+          <div class="col-12 col-lg-3 text-center mb-3 mb-lg-0">
+            <p class="text-secondary">MEMBERSHIP & BILLING</p>
+            <button
+              type="button"
+              class="btn bg-secondary-subtle rounded-0 border-secondary border-2 border-top-0 border-end-0 border-start-0 text-black"
+            >
+              Cancel Membership
+            </button>
+          </div>
+
+          <!-- PRIMA RIGA -->
+          <div class="col-12 col-lg-9">
+            <div class="row">
+              <div class="col-6">
+                <p class="fw-bold mb-1">student@strive.school</p>
+                <p class="text-secondary mb-1">Password: ********</p>
+                <p class="text-secondary mb-0">Phone: 321 044 1279</p>
+              </div>
+
+              <div class="col-6 text-end">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Change account email</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Change Password</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Change phone number</a
+                >
+              </div>
+              <hr class="border-0 bg-secondary mt-2 mb-4" style="height: 2px" />
+            </div>
+
+            <!-- SECONDA RIGA -->
+            <div class="row">
+              <div class="col-6">
+                <i class="bi bi-paypal me-3"
+                  ><span class="fw-bold ms-1">PayPal</span></i
+                >
+                <p class="fw-bold d-md-inline">admin@strive.school</p>
+              </div>
+              <div class="col-6 text-end">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Update payment info</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Billing deteails</a
+                >
+              </div>
+              <hr class="border-0 bg-secondary mt-2 mb-4" style="height: 2px" />
+            </div>
+
+            <!-- TERZA RIGA -->
+            <div class="row">
+              <div class="col-6"></div>
+              <div class="col-6 text-end">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Redeem gift card or promo code</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Where to buy gift cards</a
+                >
+              </div>
+            </div>
+          </div>
+          <hr class="border-0 bg-secondary mt-2 mb-4" style="height: 2px" />
+        </div>
+
+        <!-- QUARTA RIGA -->
+        <div class="row">
+          <div class="col-3">
+            <p class="text-secondary">PLAN DETAILS</p>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-6">
+                <p class="fw-bold d-md-inline mb-0">Premium</p>
+                <span class="fw-light border border-2 border-black p-1 ms-md-2"
+                  >ULTRA <span class="fw-bold">HD</span></span
+                >
+              </div>
+              <div class="col-6 text-end">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Change plan</a
+                >
+              </div>
+            </div>
+          </div>
+          <hr class="border-0 bg-secondary mt-2 mb-4" style="height: 2px" />
+        </div>
+
+        <!-- QUINTA RIGA -->
+        <div class="row">
+          <div class="col-3">
+            <p class="text-secondary">SETTINGS</p>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-6">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Parental controls</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Test partecipation</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Manage download devices</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Activate a device</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Recent device streaming activity</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Sign out of aall devices</a
+                >
+              </div>
+              <div class="col-6 text-end"></div>
+            </div>
+          </div>
+          <hr class="border-0 bg-secondary mt-2 mb-4" style="height: 2px" />
+        </div>
+
+        <!-- SESTA RIGA -->
+        <div class="row">
+          <div class="col-3">
+            <p class="text-secondary">MY PROFILE</p>
+          </div>
+          <div class="col-9">
+            <div class="row">
+              <div class="col-6">
+                <img
+                  src="./assets/img/avatar.png"
+                  alt="foto profilo"
+                  width="35px"
+                />
+                <p class="ms-sm-2 fw-bold d-sm-inline">Strive Student</p>
+              </div>
+              <div class="col-6 text-end">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Mange profiles</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Add profile email</a
+                >
+              </div>
+            </div>
+
+            <!-- SETTIMA RIGA -->
+            <div class="row">
+              <div class="col-6">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Language</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Playback settings</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Subtitle appearance</a
+                >
+              </div>
+              <div class="col-6 text-end text-lg-start">
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Viewing activity</a
+                >
+                <a class="text-decoration-none d-block mb-1" href="#"
+                  >Ratings</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
