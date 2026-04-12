@@ -1,0 +1,4 @@
+.animazione:hover {
+  transform: scale(1.2);
+  animation-duration: 1s;
+}
